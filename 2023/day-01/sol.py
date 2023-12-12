@@ -61,7 +61,3 @@ if __name__ == '__main__':
 	start = time.perf_counter()
 	main()
 	end = time.perf_counter()
-	print(f"took {1000*(end - start)} ms to run")
-
-	import timeit
-	print(timeit.timeit(main, number=1000))
